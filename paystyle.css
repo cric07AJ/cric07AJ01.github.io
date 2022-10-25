@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", sans-serif;
+   
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    background-image: url(https://images.unsplash.com/photo-1654398705562-d126e941ad74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0fF9oYi1kbDRRLTRVfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    display: flex;
+    flex flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+}
+a{
+    ;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}
+.cards img{
+    width: 100px;
+}
